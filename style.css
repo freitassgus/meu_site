@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+header{
+    margin-left: 28%;
+}
+
+header h1{
+    color: yellow;
+    position: relative;
+    top: -160px;
+    left: 200px;
+}
+
+article{
+    margin-left: 30%;
+    margin-top: -40px;
+}
+
+article h1{
+    margin-bottom: 5px;
+}
+
+article span{
+    position: relative;
+    top: -235px;
+}
+
+article img{
+    margin-top: 20px;
+    position: relative;
+    top: 25px;
+    left: -47%;
+}
+
+article p{
+    margin-top: 45px;
+    text-align: justify;
+    width: 535px;
+}
+
+footer{
+    margin-top: 50px;
+    width: 600px;
+    height: 230px;
+    background-color: rgb(225, 224, 224);
+    position: relative;
+    left: 28%
+    
+}
