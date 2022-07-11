@@ -22,6 +22,7 @@ article{
 
 article h1{
     margin-bottom: 5px;
+    color: green;
 }
 
 article span{
@@ -45,9 +46,148 @@ article p{
 footer{
     margin-top: 50px;
     width: 600px;
-    height: 230px;
+    height: 250px;
     background-color: rgb(225, 224, 224);
     position: relative;
-    left: 28%
-    
+    left: 28% 
+}
+
+footer h1:first-child{
+    color: blue;
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    left: 40px;
+
+}
+
+footer p:nth-of-type(1){
+    font-size: 12px;
+    color: orange;
+    text-align: justify;
+    width: 145px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+footer h1:nth-of-type(2){
+    color: brown;
+    font-size: 18px;
+    position: relative;
+    top: -170px;
+    left: 225px;
+}
+
+footer p:nth-of-type(2){
+    font-size: 12px;
+    color: red;
+    text-align: justify;
+    width: 145px;
+    position: relative;
+    top: -165px;
+    left: 225px;
+}
+
+footer h1:last-of-type{
+    color: purple;
+    font-size: 18px;
+    position: relative;
+    top: -355px;
+    left: 405px;
+}
+
+footer p:last-of-type{
+    font-size: 12px;
+    color: rgb(202, 202, 1);
+    text-align: justify;
+    width: 145px;
+    position: relative;
+    top: -350px;
+    left: 405px;
+}
+
+footer section:first-of-type{
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+footer section:nth-of-type(2){
+    position: relative;
+    top: -165px;
+    left: 225px;
+}
+
+footer section:last-of-type{
+    position: relative;
+    top: -350px;
+    left: 405px;
+}
+
+article p:first-of-type{
+    color: rgb(251, 140, 158);
+    margin-bottom: -25px;
+}
+
+article p:last-of-type{
+    color: crimson;
+}
+
+footer button:first-of-type{
+    color: white;
+    background-color:rgb(231,96,66)    ;
+    border-radius: 30px;
+    transform: scale(1.05);
+    border: none;
+    height: 30px;
+    line-height: 0px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: small;
+    position: relative;
+    top: -350px;
+    left: 45px;
+}
+
+footer button:nth-of-type(2){
+    color: white;
+    background-color:rgb(231,96,66)    ;
+    border-radius: 30px;
+    transform: scale(1.05);
+    border: none;
+    height: 30px;
+    line-height: 0px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: small;
+    position: relative;
+    top: -350px;
+    left: 119px;
+}
+
+footer button:last-of-type{
+    color: white;
+    background-color:rgb(231,96,66)    ;
+    border-radius: 30px;
+    transform: scale(1.05);
+    border: none;
+    height: 30px;
+    line-height: 0px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: small;
+    position: relative;
+    top: -350px;
+    left: 207px;
+}
+
+footer button:hover{
+    background-color: blue;
 }
